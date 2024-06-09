@@ -27,8 +27,9 @@
       top: 0;
       left: 0;
       z-index: 9999;
-      transition: all 300ms ease-in-out;
-      .navbar{
+  }  
+  /* Nvabar */
+  .navbar{
       background:linear-gradient(to right, rgba(21, 18, 24, 0.889), rgba(21, 18, 24, 0.889), rgba(21, 18, 24, 0.889), rgba(21, 18, 24, 0.889), rgba(29, 1, 54, 0.837), rgba(104, 104, 1, 0.136));
       height: 60px
     }
@@ -79,7 +80,6 @@
     #search:hover {
       color: black;
     }
-  }  
     /* Hero component bottom styling */
     .tilted-edge {
       position: relative;
@@ -239,27 +239,5 @@
 </head>
 <body>
   <div id="root"></div>
-  <script>
-    const body = document.body;
-let lastScroll = 0;
-window.addEventListener("scroll", () => {
-	const currentScroll = window.pageYOffset;
-	if (currentScroll <= 0) {
-		body.classList.remove("scroll-up");
-		return;
-	}
-	if (currentScroll > lastScroll && !body.classList.contains("scroll-down")) {
-		body.classList.remove("scroll-up");
-		body.classList.add("scroll-down");
-	} else if (
-		currentScroll < lastScroll &&
-		body.classList.contains("scroll-down")
-	) {
-		body.classList.remove("scroll-down");
-		body.classList.add("scroll-up");
-	}
-	lastScroll = currentScroll;
-});
-  </script>
-</body>
+ </body>
 </html>
