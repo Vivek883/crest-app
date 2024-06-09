@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/crest-app/static/css/main.980de5a3.css",
+    "main.js": "/crest-app/static/js/main.0aee5259.js",
+    "static/js/453.7ee4257d.chunk.js": "/crest-app/static/js/453.7ee4257d.chunk.js",
+    "index.html": "/crest-app/index.html",
+    "main.980de5a3.css.map": "/crest-app/static/css/main.980de5a3.css.map",
+    "main.0aee5259.js.map": "/crest-app/static/js/main.0aee5259.js.map",
+    "453.7ee4257d.chunk.js.map": "/crest-app/static/js/453.7ee4257d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.980de5a3.css",
+    "static/js/main.0aee5259.js"
+  ]
+}
